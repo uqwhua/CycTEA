@@ -63,6 +63,11 @@ We use the benchmark dataset released on OpenEA.
 
 The datasets can be downloaded from [here](https://www.dropbox.com/s/hbyzesmz1u7ejdu/OpenEA_dataset.zip?dl=0).
 
+## Citation
+If you find the implementation of our model or the experimental results useful, please kindly cite the following paper:
+```
+
+```
 
 ## Acknowledgement
 We refer to the codes of these repos: [OpenEA](https://github.com/nju-websoft/OpenEA). 
