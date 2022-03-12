@@ -1,7 +1,4 @@
-# [Ensemble Semi-supervised Entity Alignment via Cycle-teaching (2022 AAAI)]
-[![Contributions Welcome](https://img.shields.io/badge/Contributions-Welcome-brightgreen.svg?style=flat-square)](https://github.com/JadeXIN/IMEA/issues)
-[![language-python3](https://img.shields.io/badge/Language-Python3-blue.svg?style=flat-square)](https://www.python.org/)
-[![made-with-Tensorflow](https://img.shields.io/badge/Made%20with-Tensorflow-orange.svg?style=flat-square)](https://www.tensorflow.org/)
+# [Ensemble Semi-supervised Entity Alignment via Cycle-teaching (AAAI 2022)]
 
 > Entity alignment is to find identical entities in different knowledge graphs. Although embedding-based entity alignment has recently achieved remarkable progress, training data insufficiency remains a critical challenge. Conventional semi-supervised methods also suffer from the incorrect entity alignment in newly proposed training data. To resolve these issues, we design an iterative cycle-teaching framework for semi-supervised entity alignment. The key idea is to train multiple entity alignment models (called aligners) simultaneously and let each aligner iteratively teach its successor the proposed new entity alignment. We propose a diversity-aware alignment selection method to choose reliable entity alignment for each aligner. We also design a conflict resolution mechanism to resolve the alignment conflict when combining the new alignment of an aligner and that from its teacher. Besides, considering the influence of cycle-teaching order, we elaborately design a strategy to arrange the optimal order that can maximize the overall performance of multiple aligners. The cycle-teaching process can break the limitations of each model's learning capability and reduce the noise in new training data, leading to improved performance. Extensive experiments on benchmark datasets demonstrate the effectiveness of the proposed cycle-teaching framework, which significantly outperforms the state-of-the-art models when the training data is insufficient and the new entity alignment has much noise. 
 
@@ -37,7 +34,7 @@ src/
 
 
 #### Usage
-The following is an example about how to run CycTEA in Python (We assume that you have already downloaded our [datasets](https://www.dropbox.com/s/hbyzesmz1u7ejdu/OpenEA_dataset.zip?dl=0) and configured the hyperparameters as in the our config file.).)
+The following is an example about how to run CycTEA in Python (We assume that you have already downloaded our [datasets](https://www.dropbox.com/s/hbyzesmz1u7ejdu/OpenEA_dataset.zip?dl=0) and configured the hyperparameters as in our config file).
 
 You can integrate any entity alignment models with our framework. There are several alignment models within OpenEA libiary. You need to implement these models with proper semi-supervised loss for each of them. We already provide the implementation of semi-supervised loss for BootEA, AliNet, RSN4EA, and KEGCN.
 
