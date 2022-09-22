@@ -66,11 +66,12 @@ The datasets can be downloaded from [here](https://www.dropbox.com/s/hbyzesmz1u7
 ## Citation
 If you find the implementation of our model or the experimental results useful, please kindly cite the following paper:
 ```
-@article{xin2022ensemble,
+@inproceedings{xin2022ensemble,
   title={Ensemble Semi-supervised Entity Alignment via Cycle-teaching},
   author={Xin, Kexuan and Sun, Zequn and Hua, Wen and Liu, Bing and Hu, Wei and Qu, Jianfeng and Zhou, Xiaofang},
-  journal={arXiv preprint arXiv:2203.06308},
-  year={2022}
+  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},
+  year={2022},
+  doi={10.48550/arXiv.2203.06308}
 }
 ```
 
